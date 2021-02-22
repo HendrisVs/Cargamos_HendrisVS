@@ -12,7 +12,7 @@ postgressql v10.16-1
 Insomnia Core 2020.5.2
 
 ## Add Store
-route: "/store"
+route: "/store"  
 method: "POST"
 ```json
 JSON = {"store_name":"MiPrimerTienda", 
@@ -22,7 +22,7 @@ JSON = {"store_name":"MiPrimerTienda",
 ```
 
 ## Register product information
-route: "/product"
+route: "/product"  
 method: "POST"
 ```json
 JSON = {"product_name":"Celular", 
@@ -34,7 +34,7 @@ JSON = {"product_name":"Celular",
 ````
 
 ## Add to inventory
-route: "/inventory"
+route: "/inventory"  
 method: "POST"
 ```json
 JSON = {"store_name":"MiPrimerTienda", 
@@ -43,7 +43,7 @@ JSON = {"store_name":"MiPrimerTienda",
 		"location":"A50"}
 ````
 ## Increase stock
-route: "/inventory"
+route: "/inventory"  
 method: "PUT"
 ```json
 JSON = {"store_name":"MiPrimerTienda", 
